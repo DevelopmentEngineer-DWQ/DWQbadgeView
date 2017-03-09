@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="杜文全背景.png" translatesAutoresizingMaskIntoConstraints="NO" id="jhg-K0-WrG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="效果展示如下" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8f-vc-0zz">
+                                <rect key="frame" x="89" y="468" width="196" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfR-jC-ItE">
+                                <rect key="frame" x="164" y="513" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.6360827617" green="1" blue="0.24529052570000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="qOq-yp-2Bx"/>
+                                </constraints>
+                                <state key="normal" title="待发货">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数字位置是可以改变的噢！~~~欢迎关注简书和GitHub，更多存货和开源Demo陆续推出" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fe8-l4-qWX">
+                                <rect key="frame" x="0.0" y="562" width="375" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="tBg-ju-sTc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fe8-l4-qWX" secondAttribute="trailing" id="8nr-Sr-X6K"/>
+                            <constraint firstItem="jhg-K0-WrG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9fO-pK-HgH"/>
+                            <constraint firstItem="X8f-vc-0zz" firstAttribute="centerX" secondItem="jhg-K0-WrG" secondAttribute="centerX" id="Lfa-kj-kk0"/>
+                            <constraint firstItem="jhg-K0-WrG" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="NfZ-ZW-8wj"/>
+                            <constraint firstItem="jhg-K0-WrG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OcO-DC-ZAr"/>
+                            <constraint firstItem="ZfR-jC-ItE" firstAttribute="top" secondItem="X8f-vc-0zz" secondAttribute="bottom" constant="24" id="P54-N4-d9c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZfR-jC-ItE" secondAttribute="trailing" constant="149" id="XCh-y0-EMF"/>
+                            <constraint firstItem="X8f-vc-0zz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="448" id="bjL-Mj-t7U"/>
+                            <constraint firstItem="fe8-l4-qWX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cAC-lL-sRz"/>
+                            <constraint firstItem="X8f-vc-0zz" firstAttribute="centerX" secondItem="ZfR-jC-ItE" secondAttribute="centerX" id="cO9-o5-aAx"/>
+                            <constraint firstItem="fe8-l4-qWX" firstAttribute="top" secondItem="ZfR-jC-ItE" secondAttribute="bottom" constant="19" id="g3f-6t-dGJ"/>
+                            <constraint firstItem="X8f-vc-0zz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="73" id="rv7-0w-aUP"/>
+                            <constraint firstItem="ZfR-jC-ItE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="148" id="yTt-Nx-Sa3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn" destination="ZfR-jC-ItE" id="ADv-kr-Bq3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="杜文全背景.png" width="640" height="1136"/>
+    </resources>
+</document>
