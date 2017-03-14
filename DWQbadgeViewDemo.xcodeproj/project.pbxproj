@@ -58,6 +58,7 @@
 		049E4F561E710DC200A72C27 /* DWQBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQBadgeView.h; sourceTree = "<group>"; };
 		049E4F571E710DC200A72C27 /* DWQBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQBadgeView.m; sourceTree = "<group>"; };
 		049E4F5C1E710FA400A72C27 /* 杜文全背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杜文全背景.png"; sourceTree = "<group>"; };
+		049E4FCB1E713ADC00A72C27 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 				049E4F3A1E710DA600A72C27 /* DWQbadgeViewDemoTests */,
 				049E4F451E710DA600A72C27 /* DWQbadgeViewDemoUITests */,
 				049E4F1F1E710DA600A72C27 /* Products */,
+				049E4FCA1E713ADC00A72C27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +159,14 @@
 				049E4F571E710DC200A72C27 /* DWQBadgeView.m */,
 			);
 			path = DWQbadgeView;
+			sourceTree = "<group>";
+		};
+		049E4FCA1E713ADC00A72C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049E4FCB1E713ADC00A72C27 /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,6 +546,7 @@
 				049E4F4D1E710DA600A72C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049E4F4E1E710DA600A72C27 /* Build configuration list for PBXNativeTarget "DWQbadgeViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +555,7 @@
 				049E4F501E710DA600A72C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049E4F511E710DA600A72C27 /* Build configuration list for PBXNativeTarget "DWQbadgeViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +564,7 @@
 				049E4F531E710DA600A72C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
